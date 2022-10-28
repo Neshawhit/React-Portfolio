@@ -6,7 +6,7 @@ import './assets/about.css'
 
 const About = props => {
     return (
-        <div className='row'>
+        <div className='row .h-fit-content ' style={{  overflow: 'hidden'}}>
             <div className='col'>
                 <h1 className='m-3' style={{ fontFamily: 'Indie Flower' }}>About</h1>
                 <img src={me} style={{ display: 'flex', borderRadius: '20px', justifyContent: 'start', height: '400px' }} className="img-fluid img-profile  d-flex justify-content-start rounded-circle mx-auto mb-2 img-fluid img-me rounded mx-auto d-block "

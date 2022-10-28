@@ -43,7 +43,7 @@ function renderPage(currentPage) {
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
-  return (<div className=' pop text-light vh-100' style={{minHeight:' 100vh', display: 'flex', flexDirection: 'column'}}>
+  return (<div className=' pop text-light h-fit-content' style={{height: '100%', minHeight:'100vh', minWidth:'100vw', display: 'flex', flexDirection: 'column'}}>
     <div>
       <Header />
       <nav className='d-flex justify-content-end  card-img-overlay' >

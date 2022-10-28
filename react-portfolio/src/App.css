@@ -17,6 +17,10 @@ background-color: #0C2B51;
   }
 }
 
+.h-fit-content {
+height: fit-content;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
