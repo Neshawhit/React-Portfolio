@@ -1,23 +1,28 @@
 //import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import Navigation from './Navigation'
+import headerBackGround from "./assets/vector-banner-design-circuit-board-260nw-1233925105.jpg"
 //import Navigation from './src/components/Navigation'
 //import './src/css/header.css'
 
 export default function Header() {
     return (
         <div>
-            <div classname="jumbotron jumbotron-fluid">
-                <div className="container">
-                    <h1 className="display-4">Fluid jumbotron</h1>
-                    <p className="lead text-dark">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <img className="card-img" style= {{height: '150px'}} src={headerBackGround} alt="Card image"></img>
+            <div classname="jumbotron jumbotron-fluid  text-light " styly={{}}>
+                <div className='card-img-overlay'>
+                    <div className="container " style={{  textAlign: "center"}}>
+                        <h1 className="display-4">Antwanesha Whitmire</h1>
+                        <p className="lead text-light" style={{fontSize: '15px'}}>  "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style." -Maya Angelou</p>
+                    </div>
+                    <Navigation />
                 </div>
-           <p> Helloo</p>
             </div>
         </div>
     )
 }
 
-ReactDOM.render(<Header />, document.getElementById('header'));
+
 
 
 

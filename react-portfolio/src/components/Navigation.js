@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+// import resume from 
 
 export default function Navigation() {
+
+    // const [aboutMe, setAboutMe] = useState('');
+    // let [portfolio, setPortfolio] = useState('');
+    // let [contact, setContact] = useState('');
+    // let [resume, setResume] = useState('');
+
+  const [currentPage, setCurrentPage] = useState('About');
+
     return (
-        <nav className='navbar'>
-            <ul className='nav-links'>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-                <li>Resume</li>
-            </ul>
-        </nav>
+        <div className=' text-white d-flex align-content-end'>
+           {/* <nav>
+    <a className="text-dark" onClick={() => setCurrentPage('About')}>About</a>
+    <a onClick={() => setCurrentPage('Contact')}>Contact</a>
+    <a onClick={() => setCurrentPage('Portfolio')}>Portfolio</a>
+    <a onClick={() => setCurrentPage('Resume')}>Resume</a>
+  </nav> */}
+
+        </div>
     )
 }
 
