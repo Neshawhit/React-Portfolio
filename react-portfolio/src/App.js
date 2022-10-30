@@ -47,7 +47,7 @@ function App() {
     <div className=' pop text-light h-fit-content' style={{ height: '100%', minHeight: '100vh', minWidth: '100vw', display: 'flex', flexDirection: 'column' }}>
       <div>
         <Header />
-        <nav className='d-flex justify-content-end  card-img-overlay' >
+        <nav className='d-flex justify-content-end ' >
           <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('About')}>About</a>
           <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Contact')}>Contact</a>
           <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Portfolio')}>Portfolio</a>

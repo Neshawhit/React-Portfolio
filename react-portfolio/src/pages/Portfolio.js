@@ -21,7 +21,7 @@ const Portfolio = () => {
     // const handleMouseOut = () => {
     //     setIsHovering(false);
     // };
-    
+
 
     return (
         <section className='porfolio container column'>
@@ -29,9 +29,12 @@ const Portfolio = () => {
             <div style={{}}>
                 <div className='row justify-content-around mb-4' style={{ marginRight: '200px' }}>
                     <div className=' project1 m-2 col-6'>
-                        <img src={codeQuiz} className="codeQuiz-img" href="https://neshawhit.github.io/Code-Quiz/" target="blank" alt="Code Quiz" />
-                        && <p>
-                            Edit <code>src/App.js</code> and save to reload.
+                        <a href="https://neshawhit.github.io/Code-Quiz/" target="blank">
+                            <img src={codeQuiz} className="codeQuiz-img" alt="Code Quiz" />
+
+                        </a>
+                        <p>
+                            Short quiz testing one's basic coding Knowledge.
 
                         </p>
                         <a
@@ -44,8 +47,11 @@ const Portfolio = () => {
                         </a>
                     </div>
                     <div className=' col-4 m-2 project2'>
-                        <img src={passwordGen}  className="PasswordGen-img" href="https://neshawhit.github.io/Password-Generator/" target="blank" alt="Password-Generator" />
-                        && <p>
+                        <a href="https://neshawhit.github.io/Password-Generator/" target="blank">
+                            <img src={passwordGen} className="PasswordGen-img" alt="Password-Generator" />
+
+                        </a>
+                        <p className=''>
                             Password Generator is an application that allows you to create a randomized password using the parameters of your choosing.
                         </p>
                         <a
@@ -60,9 +66,12 @@ const Portfolio = () => {
                 </div>
                 <div className='row justify-content-around mb-4' style={{ marginRight: '200px' }} >
                     <div className='project3 m-2 col-6'>
-                        <img src={dailyPlanner} className="daily-planner-img" href="https://neshawhit.github.io/Daily-Planner/" alt="Daily-Planner" />
+                        <a href="https://neshawhit.github.io/Daily-Planner/" target="blank">
+                            <img src={dailyPlanner} className="daily-planner-img" alt="Daily-Planner" />
+
+                        </a>
                         <p>
-                            Edit <code>src/App.js</code> and save to reload.
+                            Application that allows it's users to manage and maintain their schedule in their personal work week.
                         </p>
                         <a
                             className="github-link"
@@ -74,14 +83,17 @@ const Portfolio = () => {
                         </a>
                     </div>
                     <div className='project4 m-2 col-4'>
-                        <img src={noteTaker} className="note-taker-img" href="https://my-notetaker24.herokuapp.com/" alt="note-taker" />
+                        <a href="https://my-notetaker24.herokuapp.com/" target="_blank">
+                            <img src={noteTaker} className="note-taker-img" alt="note-taker" />
+
+                        </a>
                         <p>
-                            Edit <code>src/App.js</code> and save to reload.
+                          Application that allows it's user to make quick and easy notes to help them keep with any task or new information. 
 
                         </p>
                         <a
                             className="github-link"
-                            href="https://github.com/Neshawhit/note-taker"
+                            href="https://github.com/Neshawhit/note-taker "
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -91,9 +103,12 @@ const Portfolio = () => {
                 </div>
                 <div className='row justify-content-around mb-4' style={{ marginRight: '200px' }}>
                     <div className='project5 m-2 col-6'>
-                        <img src={teamProfiles} className="team-profiles-img"  href="https://neshawhit.github.io/Team-Profiles/dist/team.html"  alt="team-profiles" />
+                        <a href="https://neshawhit.github.io/Team-Profiles/dist/team.html" target="blank">
+                            <img src={teamProfiles} className="team-profiles-img" alt="team-profiles" />
+
+                        </a>
                         <p>
-                            Edit <code>src/App.js</code> and save to reload.
+                           Team Profiles is an application that can help any business or office manager create an organized spread sheet of current employees in just a few basic steps.
 
                         </p>
                         <a
@@ -106,10 +121,12 @@ const Portfolio = () => {
                         </a>
                     </div>
                     <div className='project6 m-2 col-4'>
+                        <a  href="https://young-oasis-85311.herokuapp.com/login" target="blank">
+                        <img src={solarClicker} className="solar-clicker-img" alt="solar-clicker" />
 
-                        <img src={solarClicker} className="solar-clicker-img" href="https://young-oasis-85311.herokuapp.com/login" alt="solar-clicker" />
+                        </a>
                         <p>
-                            Edit <code>src/App.js</code> and save to reload.
+                       Solar clicker is a clicker game that helps users relieve stress and refocus the mind click by click. 
                         </p>
                         <a
                             className="github-link"
