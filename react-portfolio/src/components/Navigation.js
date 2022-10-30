@@ -1,5 +1,23 @@
 import React, { useState } from 'react';
+
 // import resume from 
+
+
+// function renderPage(currentPage) {
+//   if (currentPage === 'About') {
+//     return < About />
+//   }
+//   if (currentPage === 'Contact') {
+//     return <Contact />
+//   }
+//   if (currentPage === 'Portfolio') {
+//     return <Portfolio />
+//   }
+//   if (currentPage === 'Resume') {
+//     return <Resume />
+//   }
+// };
+
 
 export default function Navigation() {
 

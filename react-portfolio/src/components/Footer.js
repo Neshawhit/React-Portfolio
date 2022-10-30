@@ -2,9 +2,10 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer className='d-flex align-items-end text-light' style={{marginTop: 'auto'}}>
+        <footer className='d-flex align-items-end text-light  justify-content-center text-lg-start ' style={{marginTop: 'auto', backgroundColor:'rgba(0, 0, 0, 0.2)'}}>
+            <p className='m-1'> © 2020 Copyright:</p>
           <a
-        className="github-link m-2 text-light"
+        className="github-link m-1 text-light"
           href="https://github.com/Neshawhit"
           target="_blank"
           rel="noopener noreferrer"
@@ -12,7 +13,7 @@ export default function Footer() {
          Github
         </a>
         <a
-        className="Indeed-link m-2 text-light"
+        className="Indeed-link m-1 text-light"
           href="https://my.indeed.com/p/antwaneshaw-fqtqgnz/preview"
           target="_blank"
           rel="noopener noreferrer"
@@ -20,7 +21,7 @@ export default function Footer() {
          Indeed
         </a>
         <a
-        className="business-site m-2 text-light"
+        className="business-site m-1 text-light"
           href="https://soulpoweredholistics.com"
           target="_blank"
           rel="noopener noreferrer"

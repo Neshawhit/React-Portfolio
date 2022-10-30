@@ -43,19 +43,20 @@ function renderPage(currentPage) {
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
-  return (<div className=' pop text-light h-fit-content' style={{height: '100%', minHeight:'100vh', minWidth:'100vw', display: 'flex', flexDirection: 'column'}}>
-    <div>
-      <Header />
-      <nav className='d-flex justify-content-end  card-img-overlay' >
-        <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('About')}>About</a>
-        <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Contact')}>Contact</a>
-        <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Portfolio')}>Portfolio</a>
-        <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Resume')}>Resume</a>
-      </nav>
-    </div>
-    {renderPage(currentPage)}
-    <Footer />
-  </div>)
+  return (
+    <div className=' pop text-light h-fit-content' style={{ height: '100%', minHeight: '100vh', minWidth: '100vw', display: 'flex', flexDirection: 'column' }}>
+      <div>
+        <Header />
+        <nav className='d-flex justify-content-end  card-img-overlay' >
+          <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('About')}>About</a>
+          <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Contact')}>Contact</a>
+          <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Portfolio')}>Portfolio</a>
+          <a className="m-2" style={{ color: 'white' }} onClick={() => setCurrentPage('Resume')}>Resume</a>
+        </nav>
+      </div>
+      {renderPage(currentPage)}
+      <Footer />
+    </div>)
 
 }
 

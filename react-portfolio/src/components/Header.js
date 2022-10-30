@@ -11,7 +11,7 @@ export default function Header() {
             <img className="card-img" style= {{height: '150px'}} src={headerBackGround} alt="Card image"></img>
             <div classname="jumbotron jumbotron-fluid  text-light " styly={{}}>
                 <div className='card-img-overlay'>
-                    <div className="container " style={{  textAlign: "center"}}>
+                    <div className="container text-center m-1" >
                         <h1 className="display-4">Antwanesha Whitmire</h1>
                         <p className="lead text-light" style={{fontSize: '15px'}}>  "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style." -Maya Angelou</p>
                     </div>
