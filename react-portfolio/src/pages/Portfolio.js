@@ -7,6 +7,7 @@ import noteTaker from './assets/note-taker.png'
 import teamProfiles from './assets/Team-profiles.png'
 import solarClicker from './assets/solar-clicker.png'
 import { useState } from 'react'
+import './assets/portfolio.css'
 
 
 
@@ -26,7 +27,7 @@ const Portfolio = () => {
     return (
         <section className='porfolio container column'>
             <h1 style={{ fontFamily: 'Indie Flower' }}>Portfolio</h1>
-            <div style={{}}>
+            <div classname='projects' style={{}}>
                 <div className='row justify-content-around mb-4' style={{ marginRight: '200px' }}>
                     <div className=' project1 m-2 col-6'>
                         <a href="https://neshawhit.github.io/Code-Quiz/" target="blank">
@@ -88,7 +89,7 @@ const Portfolio = () => {
 
                         </a>
                         <p>
-                          Application that allows it's user to make quick and easy notes to help them keep with any task or new information. 
+                            Application that allows it's user to make quick and easy notes to help them keep with any task or new information.
 
                         </p>
                         <a
@@ -108,7 +109,7 @@ const Portfolio = () => {
 
                         </a>
                         <p>
-                           Team Profiles is an application that can help any business or office manager create an organized spread sheet of current employees in just a few basic steps.
+                            Team Profiles is an application that can help any business or office manager create an organized spread sheet of current employees in just a few basic steps.
 
                         </p>
                         <a
@@ -121,12 +122,12 @@ const Portfolio = () => {
                         </a>
                     </div>
                     <div className='project6 m-2 col-4'>
-                        <a  href="https://young-oasis-85311.herokuapp.com/login" target="blank">
-                        <img src={solarClicker} className="solar-clicker-img" alt="solar-clicker" />
+                        <a href="https://young-oasis-85311.herokuapp.com/login" target="blank">
+                            <img src={solarClicker} className="solar-clicker-img" alt="solar-clicker" />
 
                         </a>
                         <p>
-                       Solar clicker is a clicker game that helps users relieve stress and refocus the mind click by click. 
+                            Solar clicker is a clicker game that helps users relieve stress and refocus the mind click by click.
                         </p>
                         <a
                             className="github-link"
