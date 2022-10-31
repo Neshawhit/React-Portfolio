@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer className='d-flex align-items-end text-light  justify-content-center text-lg-start ' style={{marginTop: 'auto', backgroundColor:'rgba(0, 0, 0, 0.2)'}}>
+        <footer className='d-flex align-items-end text-light  justify-content-center text-lg-start mt-5' style={{marginTop: 'auto', backgroundColor:'rgba(0, 0, 0, 0.2)'}}>
             <p className='m-1'> © 2020 Copyright:</p>
           <a
         className="github-link m-1 text-light"

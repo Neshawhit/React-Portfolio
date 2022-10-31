@@ -10,7 +10,7 @@ const About = props => {
             <h1 className='m-3' style={{ fontFamily: 'Indie Flower' }}>About</h1>
             <div className='row' style={{ marginLeft: '60px' }}>
                 <div className=" col-4"  >
-                    <img src={me} style={{ display: 'flex', borderRadius: '20px', justifyContent: 'start', height: '400px' }} className=" img-fluid img-profile  d-flex justify-content-start rounded-circle mx-auto mb-2 img-fluid img-me rounded mx-auto d-block "
+                    <img src={me} style={{ display: 'flex', borderRadius: '20px', justifyContent: 'start', height: '400px' }} className=" img-fluid img-profile  d-flex justify-content-start rounded-circle mx-auto mb-3 img-fluid img-me rounded mx-auto d-block "
                         alt="img-Antwanesha-Whitmire">
                     </img>
                 </div>
