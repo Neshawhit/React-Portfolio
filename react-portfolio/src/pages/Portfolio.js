@@ -29,7 +29,7 @@ const Portfolio = () => {
             <h1 style={{ fontFamily: 'Indie Flower' }}>Portfolio</h1>
             <div classname='projects' style={{}}>
                 <div className='row justify-content-around mb-4' style={{ marginRight: '200px' }}>
-                    <div className=' project1 m-2 col-6'>
+                    <div className=' project1 m-2 col-6 row justify-content-around mb-4'>
                         <a href="https://neshawhit.github.io/Code-Quiz/" target="blank">
                             <img src={codeQuiz} className="codeQuiz-img" alt="Code Quiz" />
 
