@@ -6,7 +6,7 @@
 2. [Usage](#usage)
 3. [Installation](#installation)
 4. [Visuals](#visuals)
-5. [Links](#inks)
+5. [Links](#links)
 7. [Questions](#questions)
 ## Description
 
@@ -31,6 +31,6 @@ Deploy link:
 For any questions you can reach out to me @
 Neshawhit@gmail.com 
 </br>
- http://github.com/https://github.com/Neshawhit
+ http://github.com/Neshawhit
  </br>
  http://linkedin.com/Neshawhit
