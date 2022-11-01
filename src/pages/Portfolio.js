@@ -8,6 +8,8 @@ import teamProfiles from './assets/Team-profiles.png'
 import solarClicker from './assets/solar-clicker.png'
 import { useState } from 'react'
 import './assets/portfolio.css'
+import interestBoard from './assets/Pizza Network.png'
+import dateNight from './assets/date-night.png'
 
 
 
@@ -132,6 +134,43 @@ const Portfolio = () => {
                         <a
                             className="github-link"
                             href="https://github.com/SupernalDeity/solar-clicker"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Github
+                        </a>
+                    </div>
+                </div>
+                <div className='row justify-content-around mb-4' style={{ marginRight: '200px' }}>
+                    <div className='project7 m-2 col-6'>
+                        <a href="https://rocky-fortress-46351.herokuapp.com/" target="blank">
+                            <img src={ interestBoard } className="interest-board-img" alt="interest-board" />
+
+                        </a>
+                        <p>
+                        A message board for users to post about what they are thinking, and to give users a space to share ideas and talk amongst themselves.
+
+
+                        </p>
+                        <a
+                            className="github-link"
+                            href="https://github.com/nathanhawk2/interest-board"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Github
+                        </a>
+                    </div>
+                    <div className='project8 m-2 col-4'>
+                        <a href="https://neshawhit.github.io/Group-Project-1/" target="blank">
+                            <img src={dateNight } className="date-night-img" alt="Date-night-inn" />
+
+                        </a>
+                        <p>
+                        This webpage will help randomize those options for you to make a quick and easy decision.
+                        </p>
+                        <a
+                            className="github-link"
+                            href="https://github.com/Neshawhit/Group-Project-1"
                             target="_blank"
                             rel="noopener noreferrer"
                         >Github
