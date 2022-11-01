@@ -1,19 +1,36 @@
 # React-Portfolio
+  
 
- npm start
-    Starts the development server.
+# Table of Contents
+1. [Description](#description)
+2. [Usage](#usage)
+3. [Installation](#installation)
+4. [Visuals](#visuals)
+5. [Links](#inks)
+7. [Questions](#questions)
+## Description
 
-  npm run build
-    Bundles the app into static files for production.
+Reactive portfolio to showcase my work
 
-  npm test
-    Starts the test runner.
+## Usage
+To allow others to see my developer capabilities.
+## Installation
+npm Install
 
-  npm run eject
-    Removes this tool and copies build dependencies, configuration files
-    and scripts into the app directory. If you do this, you can’t go back!
+## Visuals
+![Portfolio](/Screenshot%202022-10-31%20222046.png)
 
-We suggest that you begin by typing:
+## Links 
 
-  cd react-portfolio
-  npm start
+Project Repo: 
+https://github.com/Neshawhit/React-Portfolio
+
+Deploy link: 
+
+## Questions
+For any questions you can reach out to me @
+Neshawhit@gmail.com 
+</br>
+ http://github.com/https://github.com/Neshawhit
+ </br>
+ http://linkedin.com/Neshawhit
